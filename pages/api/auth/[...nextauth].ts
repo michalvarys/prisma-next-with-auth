@@ -2,9 +2,8 @@ import Adapters from 'next-auth/adapters'
 import NextAuth, { NextAuthOptions } from 'next-auth'
 import prisma from '../../../lib/prisma'
 import Providers from 'next-auth/providers'
-import { decodeToken, encodeUser, JWT_SECRET, signUser } from '../../jwt'
 import { User } from '@prisma/client'
-import { Paths, UserRole } from '../../../src/core'
+import { Paths, UserRole, decodeToken, encodeUser, JWT_SECRET, signUser } from '../../../src/core'
 
 type Credentials = {
   username: string
