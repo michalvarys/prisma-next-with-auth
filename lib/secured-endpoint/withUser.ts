@@ -22,7 +22,6 @@ export const withUser: WithUserType =
       return
     }
 
-    // @ts-ignore fixme
     req.user = user
     await handler(req, res)
   }

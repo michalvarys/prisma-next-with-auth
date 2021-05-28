@@ -1,10 +1,10 @@
 import { IncomingMessage } from 'http'
 import { GetServerSidePropsContext } from 'next'
-import { SessionWithToken } from '../../lib/withUser'
+import { SessionWithToken } from '../../lib/secured-endpoint'
 import { ApiRequest, SignInResponse } from '../types'
 
 declare module 'next-auth/client' {
-  function signin(
+  export function signin(
     provider: string,
     data: {
       callbackUrl?: string
@@ -15,17 +15,17 @@ declare module 'next-auth/client' {
     }
   ): Promise<SignInResponse>
 
-  const signIn: typeof signin
+  export const signIn: typeof signin
 
-  function session(
+  export function session(
     context?:
       | {
-          req: ApiRequest
-        }
+        req: ApiRequest
+      }
       | {
-          req: GetServerSidePropsContext['req']
-        }
+        req: GetServerSidePropsContext['req']
+      }
   ): Promise<SessionWithToken | null>
-  const getSession: typeof session
+  export const getSession: typeof session
   declare function useSession(): [SessionWithToken | null | undefined, boolean]
 }
