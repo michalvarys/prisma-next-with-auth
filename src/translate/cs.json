@@ -1,0 +1,15 @@
+{
+  "Invalid login credentials": "Špatné přihlašovací údaje",
+  "Please input your username!": "Zadejte vaše uživatelské jméno!",
+  "Please input your password!": "Zadejte vaše heslo!",
+  "Log in": "Přihlásit se",
+  "Username": "Jméno",
+  "Password": "Heslo",
+  "Login": "Přihlášení",
+  "Installing": "Instaluji...",
+  "Database is already installed": "Databáze už byla nainstalována",
+  "Your database is being installed": "Probíhá instalace databáze a plnění obsahu",
+  "Installation failed": "Instalace se nezdařila",
+  "Installation complete": "Instalace proběhla úspěšně",
+  "Error": "Chyba"
+}

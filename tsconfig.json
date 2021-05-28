@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "types": [
+      "@emotion/react"
+    ],
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "jsxImportSource": "@emotion/react"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

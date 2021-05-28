@@ -1,0 +1,15 @@
+{
+  "Invalid login credentials": "Invalid login credentials",
+  "Please input your username!": "Please input your username!",
+  "Please input your password!": "Please input your password!",
+  "Log in": "Log in",
+  "Username": "Username",
+  "Password": "Password",
+  "Login": "Login",
+  "Installing": "Installing...",
+  "Database is already installed": "Database is already installed",
+  "Your database is being installed": "Your database is being installed",
+  "Installation failed": "Installation failed",
+  "Installation complete": "Installation complete",
+  "Error": "Error"
+}
