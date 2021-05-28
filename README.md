@@ -52,8 +52,6 @@ _Example_
 
 ```conf
 DATABASE_URL="file:./database.db"
-NEXT_PUBLIC_DOMAIN=yourdomain.cz
-NEXT_PUBLIC_TINYMCE_APIKEY=yourApiKey
 
 NEXT_PUBLIC_API_URL=http://localhost:3000
 NEXTAUTH_URL=http://localhost:3000/
